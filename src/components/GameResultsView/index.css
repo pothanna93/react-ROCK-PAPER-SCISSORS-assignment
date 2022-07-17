@@ -1,0 +1,61 @@
+.game-view-app-container {
+  width: 100%;
+}
+.game-view-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.img-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  margin: 20px;
+}
+.game-img {
+  width: 160px;
+  height: 160px;
+}
+.two-image-container {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+}
+.app-result-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  height: 100vh;
+  justify-content: center;
+}
+.result-container {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+}
+.you-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.result-button {
+  width: 130px;
+  height: 40px;
+  color: #223a5f;
+  border-radius: 6px;
+}
+.result-label {
+  font-size: 34px;
+  color: #fff;
+  font-weight: 600;
+  font-family: 'Roboto';
+}
+.you {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
